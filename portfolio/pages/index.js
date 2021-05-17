@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
+import Link from "next/link";
 import Navbar from "../components/Navbar";
 export default function Home() {
   return (
@@ -14,13 +15,16 @@ export default function Home() {
         </Head>
         <main className={styles.main}>
           <div className={styles.me}>
-            <Image
+            <img
               src="/images/profile.jpg"
               className={styles.me + " " + styles.pfp}
               width={200}
               height={190}
-              style={{ position: "absolute" }}
-            ></Image>
+              style={{
+                boxShadow:
+                  "0px 5px 50px 0px DodgerBlue, 0px 0px 0px 7px DodgerBlue;",
+              }}
+            ></img>
             <h1
               style={{ marginLeft: 80, marginTop: 40 }}
               className={styles.title + " " + styles.me}
@@ -31,42 +35,45 @@ export default function Home() {
           <div style={{ maxWidth: "54%" }}>
             <p className={styles.description}>
               <code className={styles.code}>
-                Hey, I'm Avinash! I'm an EECS student at U.C. Berkeley who went
-                to josh hugs class and also he streamed on twitch
-                (twitch.tv/joshhug)
+                Hey, I'm Avinash! I'm an EECS student at U.C. Berkeley who's
+                interested in Web Development, Backend/Database Engineering, and
+                Machine Learning. Check out some of my{" "}
+                <Link href="/projects">
+                  <a>Projects</a>
+                </Link>
               </code>
             </p>
           </div>
-          <div class="social-buttons">
+          <div className="social-buttons">
             <a
               target="_blank"
               href="https://www.linkedin.com/in/avinash-rao-4549a118a/"
-              class="social-buttons__button social-button social-button--linkedin"
+              className="social-buttons__button social-button social-button--linkedin"
               aria-label="LinkedIn"
             >
-              <span class="social-button__inner">
-                <i class="fab fa-linkedin-in"></i>
+              <span className="social-button__inner">
+                <i className="fab fa-linkedin-in"></i>
               </span>
             </a>
 
             <a
               target="_blank"
               href="https://github.com/avinashrao2002"
-              class="social-buttons__button social-button social-button--github"
+              className="social-buttons__button social-button social-button--github"
               aria-label="GitHub"
             >
-              <span class="social-button__inner">
-                <i class="fab fa-github"></i>
+              <span className="social-button__inner">
+                <i className="fab fa-github"></i>
               </span>
             </a>
             <a
               target="_blank"
               href="mailto:avinashrao2002@gmail.com"
-              class="social-buttons__button social-button social-button--codepen"
+              className="social-buttons__button social-button social-button--codepen"
               aria-label="Email"
             >
-              <span class="social-button__inner">
-                <i class="fas fa-envelope"></i>
+              <span className="social-button__inner">
+                <i className="fas fa-envelope"></i>
               </span>
             </a>
           </div>

@@ -1,16 +1,18 @@
 import React from "react";
 import Link from "next/link";
+
 export default function Navbar() {
   return (
     <>
       <div
         style={{
           width: "100%",
+          maxWidth: "100%",
           position: "fixed",
           zIndex: 99,
         }}
       >
-        <header className="header">
+        <header className="header" style={{ maxWidth: "100%" }}>
           <h1 className="logo">
             <Link href="/">
               <a>Avinash Rao</a>
@@ -18,14 +20,18 @@ export default function Navbar() {
           </h1>
           <ul className="main-nav">
             <li>
-              <a href="#">Home</a>
+              <Link href="/">
+                <a>Home</a>
+              </Link>
             </li>
             <li>
-              <a href="#">Projects</a>
+              <Link href="/projects">
+                <a>Projects</a>
+              </Link>
             </li>
             <li>
-              <Link href="/resume">
-                <a>Resume</a>
+              <Link href="/experience">
+                <a>Experience</a>
               </Link>
             </li>
           </ul>

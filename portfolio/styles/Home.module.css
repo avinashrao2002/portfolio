@@ -90,8 +90,11 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 800px;
+  max-width: 75%;
+  height: 50%;
+  grid-gap: 1rem;
   margin-top: 3rem;
+  margin-bottom: 7rem;
 }
 
 .card {

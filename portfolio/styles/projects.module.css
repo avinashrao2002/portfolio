@@ -1,0 +1,128 @@
+@media (max-width: 60em) {
+}
+.grid {
+  display: grid;
+  width: 10rem;
+  grid-gap: 10rem;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  align-items: start;
+}
+@media (max-width: 60em) {
+  .grid {
+    grid-gap: 3rem;
+  }
+}
+.grid__item {
+  background-color: #fff;
+  border-radius: 0.4rem;
+  width: 45%;
+  margin: auto;
+  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: 0.2s;
+}
+.grid__item:hover {
+  transform: translateY(-0.5%);
+  box-shadow: 0 4rem 8rem rgba(38, 160, 225, 0.2);
+}
+.card__img {
+  display: block;
+  width: 100%;
+  height: 15rem;
+  object-fit: cover;
+}
+.card__content {
+  padding: 1rem 3rem;
+}
+.card__header {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #0d0d0d;
+  margin-bottom: 1.5rem;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+.card__text {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #3d3d3d;
+  margin-bottom: 2.5rem;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+.card__btn {
+  display: block;
+  width: 100%;
+  padding: 0.7rem;
+  font-size: 1rem;
+  text-align: center;
+  color: #3363ff;
+  background-color: #e6ecff;
+  border: none;
+  border-radius: 0.4rem;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.card__btn span {
+  margin-left: 1rem;
+  transition: 0.2s;
+}
+.card__btn:hover,
+.card__btn:active {
+  background-color: #dce4ff;
+}
+.card__btn:hover span,
+.card__btn:active span {
+  margin-left: 1.5rem;
+}
+
+.stream {
+  position: relative;
+  display: inline-block;
+  background-color: #9147ff;
+}
+
+.stream:before,
+.stream:after {
+  content: "";
+  display: block;
+  background-color: #9147ff;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  transition: all 0.15s ease;
+}
+
+.stream:before {
+  top: 0;
+  left: 0;
+  transform-origin: top left;
+  transform: rotate(-45deg) scale(0);
+}
+
+.stream:after {
+  right: 0;
+  bottom: 0;
+  transform-origin: bottom right;
+  transform: rotate(45deg) scale(0);
+}
+
+.stream__thumbnail {
+  display: block;
+  transform: translate(0, 0);
+  transition: all 0.15s ease;
+  position: relative;
+  z-index: 10;
+}
+
+.stream:hover .stream__thumbnail {
+  transform: translate(6px, -6px);
+}
+
+.stream:hover:before {
+  transform: rotate(-45deg) scale(1);
+}
+
+.stream:hover:after {
+  transform: rotate(45deg) scale(1);
+}
