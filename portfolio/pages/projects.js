@@ -18,7 +18,7 @@ export default class projects extends Component {
               <link rel="icon" href="/favicon.ico" />
             </Head>
             <main className={styles.main}>
-              <h1>Projects</h1>
+              <h1 style={{ marginTop: "50%" }}>Projects</h1>
               <div className={styles.grid}>
                 <div className={cardStyles.grid__item}>
                   <div className={cardStyles.card}>
@@ -45,15 +45,24 @@ export default class projects extends Component {
                       <p
                         className={cardStyles.card__text}
                         style={{
+                          marginBottom: 0,
                           fontFamily:
                             "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;",
                         }}
                       >
-                        React JS/Electron Dev task management app integrated
-                        with a firebase backend.
+                        Taskme is a productivity app that aids users with task
+                        management and event planning. I built the frontend with
+                        React JS and implemented a Google Firebase database to
+                        store user information and make the app responsive in
+                        real-time. Additionally, I deployed Taskme on Netlify
+                        and used Electron to convert it into a desktop app that
+                        syncs account data across multiple platforms.
                       </p>
-                      <p className={cardStyles.card__text}>
-                        <i className="fas fa-upload"></i> Deployed on Netlify
+                      <p
+                        className={cardStyles.card__text}
+                        style={{ marginBottom: 0 }}
+                      >
+                        <i className="fas fa-upload"></i> Deployed
                       </p>
                       <p className={cardStyles.card__text}>
                         <i
@@ -103,14 +112,24 @@ export default class projects extends Component {
                       <p
                         className={cardStyles.card__text}
                         style={{
+                          marginBottom: 0,
                           fontFamily:
                             "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;",
                         }}
                       >
-                        GraphQL + Express API with Berkeley restaurant data.
+                        Berkeats is a restaurant search API for the city of
+                        Berkeley. I used Node.js, Express and GraphQL to build a
+                        no-REST backend and integrated a MongoDB database
+                        through the Mongoose ORM. On the frontend, I used
+                        React.js and ApolloClient to make restaurant data update
+                        in real-time with relation to the query in the search
+                        bar.
                       </p>
-                      <p className={cardStyles.card__text}>
-                        <i className="fas fa-upload"></i> Deployed on Netlify
+                      <p
+                        className={cardStyles.card__text}
+                        style={{ marginBottom: 0 }}
+                      >
+                        <i className="fas fa-upload"></i> Deployed
                         <br></br>
                         <i class="fas fa-chalkboard-teacher"></i> Presented Live
                         Demo
@@ -172,12 +191,21 @@ export default class projects extends Component {
                       <p
                         className={cardStyles.card__text}
                         style={{
+                          marginBottom: 0,
                           fontFamily:
                             "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;",
                         }}
                       >
-                        Git-esque Version Control System, built purely with
-                        Java.
+                        Gitlet is a Git-esque version control system developed
+                        purely with Java. I built this project for my Data
+                        Structures & Algorithms course with little starter code.
+                        It works exactly like git, and has functionality for the
+                        commands init, add, rm, commit, log, branch, reset,
+                        merge, and several other commands. It also has several
+                        unique commands like "find" which searches for and
+                        returns the first commit with the same message.
+                        Additionally, I wrote and implemented a breadth-first
+                        search algorithm for optimized performance.
                       </p>
                       <p className={cardStyles.card__text}>
                         <i
@@ -223,17 +251,26 @@ export default class projects extends Component {
                       <p
                         className={cardStyles.card__text}
                         style={{
+                          marginBottom: 0,
                           fontFamily:
                             "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;",
                         }}
                       >
                         The Apptivist is multi-platform social media startup
-                        that connects activists with a community of small
-                        businesses, non-profit organizations, and other
-                        like-minded individuals.
+                        that connects activists and small businesses. I
+                        primarily worked on the web app and developed the
+                        frontend with React & Bootstrap. I also integrated a
+                        No-SQL Firebase database to store user/event
+                        information. Additionally, I implemented several APIs,
+                        including Algolia full-text search. The project was
+                        accepted to the selective Berkeley SkyDeck startup
+                        incubator under the HotDesk program (Top 5%).
                       </p>
-                      <p className={cardStyles.card__text}>
-                        <i className="fas fa-upload"></i> Deployed on Netlify
+                      <p
+                        className={cardStyles.card__text}
+                        style={{ marginBottom: 0 }}
+                      >
+                        <i className="fas fa-upload"></i> Deployed
                         <br></br>
                         <i class="fas fa-trophy"></i> Accepted to Berkeley
                         SkyDeck Incubator
@@ -263,7 +300,7 @@ export default class projects extends Component {
               </div>
             </main>
           </div>
-          <footer className={styles.footer} style={{ marginTop: 400 }}>
+          <footer className={styles.footer} style={{ marginTop: "45%" }}>
             <a
               href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
               target="_blank"

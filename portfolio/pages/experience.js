@@ -17,7 +17,7 @@ export default function resume() {
             <link rel="icon" href="/favicon.ico" />
           </Head>
           <main className={styles.main}>
-            <h1 style={{ marginTop: "45vh" }}>Experience</h1>
+            <h1 style={{ marginTop: "70%", marginBottom: 0 }}>Experience</h1>
             <div className={styles.grid} style={{ maxWidth: "200%" }}>
               <div
                 className={cardStyles.grid__item}
@@ -25,7 +25,176 @@ export default function resume() {
               >
                 <div className={cardStyles.card}>
                   <div className={cardStyles.card__content}>
-                    <div style={{ paddingTop: "1rem" }}>
+                    <div style={{ paddingTop: ".5rem" }}>
+                      <img
+                        src="/images/thunderLogo.png"
+                        width={50}
+                        height={50}
+                        style={{ display: "inline", borderRadius: 6 }}
+                      ></img>
+                      <h1
+                        className={cardStyles.card__header + " " + styles.me}
+                        style={{
+                          display: "inline-block",
+                          marginLeft: 20,
+                          marginBottom: 3,
+                          fontSize: "1.8rem",
+                          verticalAlign: "top",
+                          marginTop: 0,
+                        }}
+                      >
+                        OKC Thunder Data Solutions<br></br>
+                        <p
+                          className={cardStyles.card__header + " " + styles.me}
+                          style={{
+                            marginLeft: 1,
+                            marginTop: 0,
+                            marginBottom: 0,
+                            fontSize: "1.2rem",
+                            fontWeight: "normal",
+                          }}
+                        >
+                          Software Engineering Intern
+                        </p>
+                      </h1>
+                    </div>
+                    <hr style={{ marginTop: 0 }}></hr>
+
+                    <p
+                      className={cardStyles.card__text}
+                      style={{
+                        marginBottom: 0,
+                        fontWeight: "lighter",
+                        fontFamily:
+                          "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;",
+                      }}
+                    >
+                      6/2021 - Present
+                    </p>
+                    <li
+                      className={cardStyles.card__text}
+                      style={{
+                        marginBottom: 0,
+                        fontFamily:
+                          "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;",
+                      }}
+                    >
+                      Incoming Software Engineering Intern
+                    </li>
+                    <p className={cardStyles.card__text}>
+                      <i
+                        class="fab fa-python fa-2x"
+                        style={{ marginRight: 5, color: "Dodgerblue" }}
+                      ></i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                className={cardStyles.grid__item}
+                style={{ width: "150vh", marginTop: 40 }}
+              >
+                <div className={cardStyles.card}>
+                  <div className={cardStyles.card__content}>
+                    <div style={{ paddingTop: ".5rem" }}>
+                      <img
+                        src="/images/skydeck.png"
+                        width={50}
+                        height={50}
+                        style={{ display: "inline", borderRadius: 6 }}
+                      ></img>
+                      <h1
+                        className={cardStyles.card__header + " " + styles.me}
+                        style={{
+                          display: "inline-block",
+                          marginLeft: 20,
+                          marginBottom: 3,
+                          fontSize: "1.8rem",
+                          verticalAlign: "top",
+                          marginTop: 0,
+                        }}
+                      >
+                        Berkeley SkyDeck - The Apptivist (Dormtalk)<br></br>
+                        <p
+                          className={cardStyles.card__header + " " + styles.me}
+                          style={{
+                            marginLeft: 1,
+                            marginTop: 0,
+                            marginBottom: 0,
+                            fontSize: "1.2rem",
+                            fontWeight: "normal",
+                          }}
+                        >
+                          Software Engineer & Co-Founder
+                        </p>
+                      </h1>
+                    </div>
+                    <hr style={{ marginTop: 0 }}></hr>
+                    <p
+                      className={cardStyles.card__text}
+                      style={{
+                        marginBottom: 0,
+                        fontWeight: "lighter",
+                        fontFamily:
+                          "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;",
+                      }}
+                    >
+                      8/2020 - 4/2021
+                    </p>
+                    <li
+                      className={cardStyles.card__text}
+                      style={{
+                        marginBottom: 0,
+                        fontFamily:
+                          "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;",
+                      }}
+                    >
+                      Developing and scaling a social networking application for
+                      U.C. Berkeley students with React JS, Bootstrap, and
+                      Firebase in an Agile environment
+                    </li>
+                    <li
+                      className={cardStyles.card__text}
+                      style={{
+                        marginBottom: 0,
+                        fontFamily:
+                          "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;",
+                      }}
+                    >
+                      Selected to the prestigious Berkeley SkyDeck Hotdesk
+                      program (top 5% of startups)
+                    </li>
+                    <li
+                      className={cardStyles.card__text}
+                      style={{
+                        marginBottom: 0,
+                        fontFamily:
+                          "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;",
+                      }}
+                    >
+                      Improved web app backend performance by 80% and deployed a
+                      beta version
+                    </li>
+                    <p className={cardStyles.card__text}>
+                      <i
+                        class="fab fa-js-square fa-2x"
+                        style={{ marginRight: 5, color: "Gold" }}
+                      ></i>
+                      <i
+                        class="fab fa-react fa-2x"
+                        style={{ marginRight: 5, color: "Dodgerblue" }}
+                      ></i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                className={cardStyles.grid__item}
+                style={{ width: "150vh", marginTop: 40 }}
+              >
+                <div className={cardStyles.card}>
+                  <div className={cardStyles.card__content}>
+                    <div style={{ paddingTop: ".5rem" }}>
                       <img
                         src="/images/calhacks.png"
                         width={50}
@@ -35,93 +204,69 @@ export default function resume() {
                       <h1
                         className={cardStyles.card__header + " " + styles.me}
                         style={{
-                          display: "inline",
-                          marginLeft: 10,
+                          display: "inline-block",
+                          marginLeft: 20,
+                          marginBottom: 3,
                           fontSize: "1.8rem",
+                          verticalAlign: "top",
+                          marginTop: 0,
                         }}
                       >
-                        Calhacks Cubstart -
+                        Calhacks Cubstart (CS 198-093)<br></br>
                         <p
-                          className={styles.code}
+                          className={cardStyles.card__header + " " + styles.me}
                           style={{
-                            display: "inline",
-                            fontSize: "1.4rem",
-                            fontWeight: "lighter",
-                          }}
-                        >
-                          Academic TA/WebDev Mentor
-                        </p>
-                      </h1>
-                    </div>
-                    <hr></hr>
-                    <p
-                      className={cardStyles.card__text}
-                      style={{
-                        fontFamily:
-                          "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;",
-                      }}
-                    >
-                      React JS/Electron Dev task management app integrated with
-                      a firebase backend.
-                    </p>
-                    <p className={cardStyles.card__text}>
-                      <i
-                        class="fab fa-js-square fa-2x"
-                        style={{ marginRight: 5, color: "Gold" }}
-                      ></i>
-                      <i
-                        class="fab fa-react fa-2x"
-                        style={{ marginRight: 5, color: "Dodgerblue" }}
-                      ></i>
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div
-                className={cardStyles.grid__item}
-                style={{ width: "150vh", marginTop: 40 }}
-              >
-                <div className={cardStyles.card}>
-                  <div className={cardStyles.card__content}>
-                    <div style={{ paddingTop: "1rem" }}>
-                      <img
-                        src="/images/okc.png"
-                        width={50}
-                        height={50}
-                        style={{ display: "inline", borderRadius: 6 }}
-                      ></img>
-                      <h1
-                        className={cardStyles.card__header + " " + styles.me}
-                        style={{
-                          display: "inline",
-                          marginLeft: 10,
-                          fontSize: "1.8rem",
-                        }}
-                      >
-                        OKC Data Solutions{" "}
-                        <p
-                          className={cardStyles.card__text}
-                          style={{
-                            display: "inline",
+                            marginLeft: 1,
+                            marginTop: 0,
+                            marginBottom: 0,
                             fontSize: "1.2rem",
+                            fontWeight: "normal",
                           }}
                         >
-                          Software Engineering Intern
+                          Academic TA/Web-Dev Mentor
                         </p>
                       </h1>
                     </div>
-                    <hr></hr>
+                    <hr style={{ marginTop: 0 }}></hr>
                     <p
                       className={cardStyles.card__text}
                       style={{
+                        marginBottom: 0,
+                        fontWeight: "lighter",
                         fontFamily:
                           "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;",
                       }}
                     >
-                      React JS/Electron Dev task management app integrated with
-                      a firebase backend.
+                      9/2020 - 4/2021
                     </p>
+                    <li
+                      className={cardStyles.card__text}
+                      style={{
+                        marginBottom: 0,
+                        fontFamily:
+                          "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;",
+                      }}
+                    >
+                      Hosted weekly office hours and debugged dozens of
+                      student-built web apps
+                    </li>
+                    <li
+                      className={cardStyles.card__text}
+                      style={{
+                        marginBottom: 0,
+                        fontFamily:
+                          "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;",
+                      }}
+                    >
+                      Helped students implement APIs, connect Frontend and
+                      Backend applications, and resolve other software errors.
+                    </li>
+
                     <p className={cardStyles.card__text}>
+                      <i
+                        class="fab fa-html5 fa-2x"
+                        style={{ marginRight: 5, color: "Salmon" }}
+                      ></i>
                       <i
                         class="fab fa-js-square fa-2x"
                         style={{ marginRight: 5, color: "Gold" }}
@@ -140,9 +285,9 @@ export default function resume() {
               >
                 <div className={cardStyles.card}>
                   <div className={cardStyles.card__content}>
-                    <div style={{ paddingTop: "1rem" }}>
+                    <div style={{ paddingTop: ".5rem" }}>
                       <img
-                        src="/images/skydeck.png"
+                        src="/images/stonyBrook.jpeg"
                         width={50}
                         height={50}
                         style={{ display: "inline", borderRadius: 6 }}
@@ -150,80 +295,78 @@ export default function resume() {
                       <h1
                         className={cardStyles.card__header + " " + styles.me}
                         style={{
-                          display: "inline",
-                          marginLeft: 10,
+                          display: "inline-block",
+                          marginLeft: 20,
+                          marginBottom: 3,
                           fontSize: "1.8rem",
+                          verticalAlign: "top",
+                          marginTop: 0,
                         }}
                       >
-                        Berkeley SkyDeck
+                        Stony Brook University<br></br>
+                        <p
+                          className={cardStyles.card__header + " " + styles.me}
+                          style={{
+                            marginLeft: 1,
+                            marginTop: 0,
+                            marginBottom: 0,
+                            fontSize: "1.2rem",
+                            fontWeight: "normal",
+                          }}
+                        >
+                          Research Intern
+                        </p>
                       </h1>
                     </div>
-                    <hr></hr>
+                    <hr style={{ marginTop: 0 }}></hr>
                     <p
                       className={cardStyles.card__text}
                       style={{
+                        marginBottom: 0,
+                        fontWeight: "lighter",
                         fontFamily:
                           "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;",
                       }}
                     >
-                      React JS/Electron Dev task management app integrated with
-                      a firebase backend.
+                      6/2019 - 8/2019
                     </p>
-                    <p className={cardStyles.card__text}>
-                      <i
-                        class="fab fa-js-square fa-2x"
-                        style={{ marginRight: 5, color: "Gold" }}
-                      ></i>
-                      <i
-                        class="fab fa-react fa-2x"
-                        style={{ marginRight: 5, color: "Dodgerblue" }}
-                      ></i>
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div
-                className={cardStyles.grid__item}
-                style={{ width: "150vh", marginTop: 40 }}
-              >
-                <div className={cardStyles.card}>
-                  <div className={cardStyles.card__content}>
-                    <div style={{ paddingTop: "1rem" }}>
-                      <img
-                        src="/images/skydeck.png"
-                        width={50}
-                        height={50}
-                        style={{ display: "inline", borderRadius: 6 }}
-                      ></img>
-                      <h1
-                        className={cardStyles.card__header + " " + styles.me}
-                        style={{
-                          display: "inline",
-                          marginLeft: 10,
-                          fontSize: "1.8rem",
-                        }}
-                      >
-                        Berkeley SkyDeck
-                      </h1>
-                    </div>
-                    <hr></hr>
-                    <p
+                    <li
                       className={cardStyles.card__text}
                       style={{
+                        marginBottom: 0,
                         fontFamily:
                           "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;",
                       }}
                     >
-                      React JS/Electron Dev task management app integrated with
-                      a firebase backend.
-                    </p>
+                      Improved and tested circuits and hardware structures for
+                      power density, current, and efficiency
+                    </li>
+                    <li
+                      className={cardStyles.card__text}
+                      style={{
+                        marginBottom: 0,
+                        fontFamily:
+                          "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;",
+                      }}
+                    >
+                      Analyzed performance data through Python (Numpy) and used
+                      regression/interpolation to make accurate test
+                      predictions.
+                    </li>
+                    <li
+                      className={cardStyles.card__text}
+                      style={{
+                        marginBottom: 0,
+                        fontFamily:
+                          "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;",
+                      }}
+                    >
+                      Invited to and published research in the ACS National
+                      Convention and APS National Meeting
+                    </li>
                     <p className={cardStyles.card__text}>
                       <i
-                        class="fab fa-js-square fa-2x"
-                        style={{ marginRight: 5, color: "Gold" }}
-                      ></i>
-                      <i
-                        class="fab fa-react fa-2x"
+                        class="fab fa-python fa-2x"
                         style={{ marginRight: 5, color: "Dodgerblue" }}
                       ></i>
                     </p>
@@ -233,7 +376,7 @@ export default function resume() {
             </div>
           </main>
         </div>
-        <footer className={styles.footer} style={{ marginTop: 700 }}>
+        <footer className={styles.footer} style={{ marginTop: "70%" }}>
           <a
             href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             target="_blank"
