@@ -8,7 +8,7 @@ export default function Navbar() {
         style={{
           width: "100%",
           maxWidth: "100%",
-          position: "fixed",
+          position: "absolute",
           zIndex: 99,
         }}
       >

@@ -17,8 +17,11 @@ export default class projects extends Component {
               <meta name="description" content="Built With Next.js" />
               <link rel="icon" href="/favicon.ico" />
             </Head>
-            <main className={styles.main}>
-              <h1 style={{ marginTop: "50%" }}>Projects</h1>
+            <main
+              className={styles.main}
+              style={{ position: "relative", marginTop: "40vh" }}
+            >
+              <h1>Projects</h1>
               <div className={styles.grid}>
                 <div className={cardStyles.grid__item}>
                   <div className={cardStyles.card}>

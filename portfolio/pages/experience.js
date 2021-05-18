@@ -16,8 +16,11 @@ export default function resume() {
             <meta name="description" content="Built With Next.js" />
             <link rel="icon" href="/favicon.ico" />
           </Head>
-          <main className={styles.main}>
-            <h1 style={{ marginTop: "70%", marginBottom: 0 }}>Experience</h1>
+          <main
+            className={styles.main}
+            style={{ position: "relative", marginTop: "60vh" }}
+          >
+            <h1 style={{ marginBottom: 0 }}>Experience</h1>
             <div className={styles.grid} style={{ maxWidth: "200%" }}>
               <div
                 className={cardStyles.grid__item}
