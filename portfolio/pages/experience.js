@@ -13,19 +13,16 @@ export default function resume() {
         <div className={styles.container}>
           <Head>
             <title>Avinash Rao's Portfolio - Experience</title>
-            <meta name="description" content="Built With Next.js" />
+            <meta
+              name="viewport"
+              content="width=device-width, initial-scale=1.0"
+            />
             <link rel="icon" href="/favicon.ico" />
           </Head>
-          <main
-            className={styles.main}
-            style={{ position: "relative", marginTop: "60vh" }}
-          >
-            <h1 style={{ marginBottom: 0 }}>Experience</h1>
+          <main className={styles.main} style={{ position: "relative" }}>
+            <h1 style={{ marginTop: 0, paddingTop: 0 }}>Experience</h1>
             <div className={styles.grid} style={{ maxWidth: "200%" }}>
-              <div
-                className={cardStyles.grid__item}
-                style={{ width: "150vh", marginTop: 40 }}
-              >
+              <div className={cardStyles.grid__item} style={{ width: "150vh" }}>
                 <div className={cardStyles.card}>
                   <div className={cardStyles.card__content}>
                     <div style={{ paddingTop: ".5rem" }}>
@@ -379,7 +376,7 @@ export default function resume() {
             </div>
           </main>
         </div>
-        <footer className={styles.footer} style={{ marginTop: "70%" }}>
+        <footer className={styles.footer}>
           <a
             href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             target="_blank"

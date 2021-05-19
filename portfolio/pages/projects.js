@@ -17,11 +17,8 @@ export default class projects extends Component {
               <meta name="description" content="Built With Next.js" />
               <link rel="icon" href="/favicon.ico" />
             </Head>
-            <main
-              className={styles.main}
-              style={{ position: "relative", marginTop: "40vh" }}
-            >
-              <h1>Projects</h1>
+            <main className={styles.main} style={{ position: "relative" }}>
+              <h1 style={{ marginTop: 0, paddingTop: 0 }}>Projects</h1>
               <div className={styles.grid}>
                 <div className={cardStyles.grid__item}>
                   <div className={cardStyles.card}>
@@ -108,7 +105,7 @@ export default class projects extends Component {
                             fontSize: "1.8rem",
                           }}
                         >
-                          Berkeats
+                          Berkeley Eats
                         </h1>
                       </div>
                       <hr></hr>
@@ -120,7 +117,7 @@ export default class projects extends Component {
                             "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;",
                         }}
                       >
-                        Berkeats is a restaurant search API for the city of
+                        Berkeley Eats is a restaurant search API for the city of
                         Berkeley. I used Node.js, Express and GraphQL to build a
                         no-REST backend and integrated a MongoDB database
                         through the Mongoose ORM. On the frontend, I used
@@ -303,7 +300,7 @@ export default class projects extends Component {
               </div>
             </main>
           </div>
-          <footer className={styles.footer} style={{ marginTop: "45%" }}>
+          <footer className={styles.footer}>
             <a
               href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
               target="_blank"
