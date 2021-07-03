@@ -63,6 +63,7 @@
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
+  margin-left: 80px;
 }
 
 .title,
@@ -134,5 +135,21 @@
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .me {
+    text-align: center;
+  }
+  .title {
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+    width: 100%;
+  }
+  .footer {
+
   }
 }

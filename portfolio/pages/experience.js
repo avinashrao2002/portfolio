@@ -79,7 +79,31 @@ export default function resume() {
                           "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;",
                       }}
                     >
-                      Incoming Software Engineering Intern
+                      Designed and implemented multiple frontend components with
+                      Angular and PostgreSQL for users to view and sort team
+                      development metrics by priority and recency
+                    </li>
+                    <li
+                      className={cardStyles.card__text}
+                      style={{
+                        marginBottom: 0,
+                        fontFamily:
+                          "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;",
+                      }}
+                    >
+                      Optimized Django queries with Redis caching, improving
+                      performance by 70% on several filters
+                    </li>
+                    <li
+                      className={cardStyles.card__text}
+                      style={{
+                        marginBottom: 0,
+                        fontFamily:
+                          "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;",
+                      }}
+                    >
+                      Wrote and updated 10+ CRUD operations in Python for REST
+                      APIs
                     </li>
                     <p className={cardStyles.card__text}>
                       <i

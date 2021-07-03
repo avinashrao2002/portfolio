@@ -6,6 +6,10 @@ import Navbar from "../components/Navbar";
 export default function Home() {
   return (
     <>
+      <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+      ></meta>
       <Navbar></Navbar>
       <div className={styles.container}>
         <Head>
@@ -22,11 +26,11 @@ export default function Home() {
               height={190}
               style={{
                 boxShadow:
-                  "0px 5px 50px 0px DodgerBlue, 0px 0px 0px 7px DodgerBlue;",
+                  "0px 5px 50px 0px DodgerBlue, 0px 0px 0px 7px DodgerBlue",
               }}
             ></img>
             <h1
-              style={{ marginLeft: 80, marginTop: 40 }}
+              style={{ marginTop: 40 }}
               className={styles.title + " " + styles.me}
             >
               Avinash Rao

@@ -231,3 +231,11 @@ li {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+@media only screen and (max-width: 500px) {
+}
+
+@media only screen and (max-width: 600px) {
+  .title__3DjR7 {
+    margin-left: 1000px;
+  }
+}
