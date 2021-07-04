@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import styles from "../styles/Home.module.css";
-import cardStyles from "../styles/projects.module.css";
+import cardStyles from "../styles/experience.module.css";
 import Head from "next/head";
 import Image from "next/image";
 
@@ -21,8 +21,8 @@ export default function resume() {
           </Head>
           <main className={styles.main} style={{ position: "relative" }}>
             <h1 style={{ marginTop: 0, paddingTop: 0 }}>Experience</h1>
-            <div className={styles.grid} style={{ maxWidth: "200%" }}>
-              <div className={cardStyles.grid__item} style={{ width: "150vh" }}>
+            <div className={styles.grid}>
+              <div className={cardStyles.grid__item}>
                 <div className={cardStyles.card}>
                   <div className={cardStyles.card__content}>
                     <div style={{ paddingTop: ".5rem" }}>
@@ -45,7 +45,9 @@ export default function resume() {
                       >
                         OKC Thunder Data Solutions<br></br>
                         <p
-                          className={cardStyles.card__header + " " + styles.me}
+                          className={
+                            cardStyles.card__subheader + " " + styles.me
+                          }
                           style={{
                             marginLeft: 1,
                             marginTop: 0,
@@ -110,14 +112,19 @@ export default function resume() {
                         class="fab fa-python fa-2x"
                         style={{ marginRight: 5, color: "Dodgerblue" }}
                       ></i>
+                      <i
+                        class="fab fa-js-square fa-2x"
+                        style={{ marginRight: 5, color: "Gold" }}
+                      ></i>
+                      <i
+                        class="fab fa-angular fa-2x"
+                        style={{ marginRight: 5, color: "Red" }}
+                      ></i>
                     </p>
                   </div>
                 </div>
               </div>
-              <div
-                className={cardStyles.grid__item}
-                style={{ width: "150vh", marginTop: 40 }}
-              >
+              <div className={cardStyles.grid__item} style={{ marginTop: 40 }}>
                 <div className={cardStyles.card}>
                   <div className={cardStyles.card__content}>
                     <div style={{ paddingTop: ".5rem" }}>
@@ -140,7 +147,9 @@ export default function resume() {
                       >
                         Berkeley SkyDeck - The Apptivist (Dormtalk)<br></br>
                         <p
-                          className={cardStyles.card__header + " " + styles.me}
+                          className={
+                            cardStyles.card__subheader + " " + styles.me
+                          }
                           style={{
                             marginLeft: 1,
                             marginTop: 0,
@@ -212,10 +221,7 @@ export default function resume() {
                   </div>
                 </div>
               </div>
-              <div
-                className={cardStyles.grid__item}
-                style={{ width: "150vh", marginTop: 40 }}
-              >
+              <div className={cardStyles.grid__item} style={{ marginTop: 40 }}>
                 <div className={cardStyles.card}>
                   <div className={cardStyles.card__content}>
                     <div style={{ paddingTop: ".5rem" }}>
@@ -238,7 +244,9 @@ export default function resume() {
                       >
                         Calhacks Cubstart (CS 198-093)<br></br>
                         <p
-                          className={cardStyles.card__header + " " + styles.me}
+                          className={
+                            cardStyles.card__subheader + " " + styles.me
+                          }
                           style={{
                             marginLeft: 1,
                             marginTop: 0,
@@ -303,10 +311,7 @@ export default function resume() {
                   </div>
                 </div>
               </div>
-              <div
-                className={cardStyles.grid__item}
-                style={{ width: "150vh", marginTop: 40 }}
-              >
+              <div className={cardStyles.grid__item} style={{ marginTop: 40 }}>
                 <div className={cardStyles.card}>
                   <div className={cardStyles.card__content}>
                     <div style={{ paddingTop: ".5rem" }}>
@@ -329,7 +334,9 @@ export default function resume() {
                       >
                         Stony Brook University<br></br>
                         <p
-                          className={cardStyles.card__header + " " + styles.me}
+                          className={
+                            cardStyles.card__subheader + " " + styles.me
+                          }
                           style={{
                             marginLeft: 1,
                             marginTop: 0,
