@@ -100,7 +100,6 @@ export default class projects extends Component {
                         <h1
                           className={cardStyles.card__header + " " + styles.me}
                           style={{
-                            display: "inline",
                             marginLeft: 10,
                             fontSize: "1.8rem",
                           }}
@@ -239,7 +238,6 @@ export default class projects extends Component {
                         <h1
                           className={cardStyles.card__header + " " + styles.me}
                           style={{
-                            display: "inline",
                             marginLeft: 10,
                             fontSize: "1.8rem",
                           }}

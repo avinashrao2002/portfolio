@@ -37,6 +37,7 @@
 .card__header {
   font-size: 1.5rem;
   font-weight: 500;
+  display: inline;
   color: #0d0d0d;
   margin-bottom: 1.5rem;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -125,4 +126,15 @@
 
 .stream:hover:after {
   transform: rotate(45deg) scale(1);
+}
+
+@media only screen and (max-width: 600px) {
+  .grid__item {
+    width: 100%;
+  }
+  .card__header {
+    width: 10%;
+    display: inline-block;
+    margin: 0;
+  }
 }
