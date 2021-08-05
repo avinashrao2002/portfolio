@@ -20,7 +20,15 @@ export default class projects extends Component {
             <main className={styles.main} style={{ position: "relative" }}>
               <h1 style={{ marginTop: 0, paddingTop: 0 }}>Projects</h1>
               <div className={styles.grid}>
-                <div className={cardStyles.grid__item}>
+                <div
+                  className={cardStyles.grid__item}
+                  onClick={() =>
+                    window.open(
+                      "https://github.com/avinashrao2002/taskme",
+                      "_blank"
+                    )
+                  }
+                >
                   <div className={cardStyles.card}>
                     <div className={cardStyles.card__content}>
                       <div style={{ paddingTop: "1rem" }}>
@@ -87,7 +95,15 @@ export default class projects extends Component {
                   </div>
                 </div>
 
-                <div className={cardStyles.grid__item}>
+                <div
+                  className={cardStyles.grid__item}
+                  onClick={() =>
+                    window.open(
+                      "https://github.com/avinashrao2002/berkeats",
+                      "_blank"
+                    )
+                  }
+                >
                   <div className={cardStyles.card}>
                     <div className={cardStyles.card__content}>
                       <div style={{ paddingTop: "1rem" }}>
@@ -165,7 +181,12 @@ export default class projects extends Component {
                   </div>
                 </div>
 
-                <div className={cardStyles.grid__item}>
+                <div
+                  className={cardStyles.grid__item}
+                  onClick={() =>
+                    window.open("https://youtu.be/lDR74pAXIG4", "_blank")
+                  }
+                >
                   <div className={cardStyles.card}>
                     <div className={cardStyles.card__content}>
                       <div style={{ paddingTop: "1rem" }}>
@@ -225,7 +246,15 @@ export default class projects extends Component {
                     </div>
                   </div>
                 </div>
-                <div className={cardStyles.grid__item}>
+                <div
+                  className={cardStyles.grid__item}
+                  onClick={() =>
+                    window.open(
+                      "https://github.com/avinashrao2002/Apptivist",
+                      "_blank"
+                    )
+                  }
+                >
                   <div className={cardStyles.card}>
                     <div className={cardStyles.card__content}>
                       <div style={{ paddingTop: "1rem" }}>
