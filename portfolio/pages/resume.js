@@ -20,6 +20,7 @@ export default function resume() {
             <link rel="icon" href="/favicon.ico" />
           </Head>
           <main className={styles.main} style={{ position: "relative" }}>
+            <h1 style={{ marginTop: 0, paddingTop: 0 }}>Resume</h1>
             <embed
               src="pdfs/Resume_Avinash_Rao.pdf"
               width="800px"
