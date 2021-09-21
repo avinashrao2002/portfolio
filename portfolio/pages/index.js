@@ -22,7 +22,7 @@ export default function Home() {
             <img
               src="/images/profile.jpg"
               className={styles.me + " " + styles.pfp}
-              width={200}
+              width={190}
               height={190}
               style={{
                 boxShadow:
