@@ -104,8 +104,8 @@ export default function resume() {
                           "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;",
                       }}
                     >
-                      Wrote and updated 10+ CRUD operations in Python for REST
-                      APIs
+                      Integrated Amazon S3 as a datastore for adding and
+                      updating user media
                     </li>
                     <p className={cardStyles.card__text}>
                       <i
