@@ -71,7 +71,7 @@ export default function resume() {
                           "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;",
                       }}
                     >
-                      6/2021 - Present
+                      6/2021 - 8/2021
                     </p>
                     <li
                       className={cardStyles.card__text}
