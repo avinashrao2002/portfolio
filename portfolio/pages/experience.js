@@ -6,6 +6,7 @@ import Head from "next/head";
 import Image from "next/image";
 
 export default function resume() {
+
   return (
     <>
       <div>
@@ -23,6 +24,145 @@ export default function resume() {
             <h1 style={{ marginTop: 0, paddingTop: 0 }}>Experience</h1>
             <div className={styles.grid}>
               <div className={cardStyles.grid__item}>
+                <div className={cardStyles.card}>
+                  <div className={cardStyles.card__content}>
+                    <div style={{ paddingTop: ".5rem" }}>
+                      <img
+                        src="/images/amazon.png"
+                        width={50}
+                        height={50}
+                        style={{ display: "inline", borderRadius: 6 }}
+                      ></img>
+                      <h1
+                        className={cardStyles.card__header + " " + styles.me}
+                        style={{
+                          display: "inline-block",
+                          marginLeft: 20,
+                          marginBottom: 3,
+                          fontSize: "1.8rem",
+                          verticalAlign: "top",
+                          marginTop: 0,
+                        }}
+                      >
+                        Amazon<br></br>
+                        <p
+                          className={
+                            cardStyles.card__subheader + " " + styles.me
+                          }
+                          style={{
+                            marginLeft: 1,
+                            marginTop: 0,
+                            marginBottom: 0,
+                            fontSize: "1.2rem",
+                            fontWeight: "normal",
+                          }}
+                        >
+                          Incoming Software Development Engineer Intern
+                        </p>
+                      </h1>
+                    </div>
+                    <hr style={{ marginTop: 0 }}></hr>
+
+                    <li
+                      className={cardStyles.card__text}
+                      style={{
+                        marginBottom: 0,
+                        fontFamily:
+                          "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;",
+                      }}
+                    >
+                      Coming Soon!
+                    </li>
+                  </div>
+                </div>
+              </div>
+              <div className={cardStyles.grid__item} style={{ marginTop: 40 }}>
+                <div className={cardStyles.card}>
+                  <div className={cardStyles.card__content}>
+                    <div style={{ paddingTop: ".5rem" }}>
+                      <img
+                        src="/images/wdb.png"
+                        width={50}
+                        height={50}
+                        style={{ display: "inline", borderRadius: 6 }}
+                      ></img>
+                      <h1
+                        className={cardStyles.card__header + " " + styles.me}
+                        style={{
+                          display: "inline-block",
+                          marginLeft: 20,
+                          marginBottom: 3,
+                          fontSize: "1.8rem",
+                          verticalAlign: "top",
+                          marginTop: 0,
+                        }}
+                      >
+                        Web Development at Berkeley<br></br>
+                        <p
+                          className={
+                            cardStyles.card__subheader + " " + styles.me
+                          }
+                          style={{
+                            marginLeft: 1,
+                            marginTop: 0,
+                            marginBottom: 0,
+                            fontSize: "1.2rem",
+                            fontWeight: "normal",
+                          }}
+                        >
+                          Backend Developer
+                        </p>
+                      </h1>
+                    </div>
+                    <hr style={{ marginTop: 0 }}></hr>
+
+                    <p
+                      className={cardStyles.card__text}
+                      style={{
+                        marginBottom: 0,
+                        fontWeight: "lighter",
+                        fontFamily:
+                          "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;",
+                      }}
+                    >
+                      8/2021 - 12/2021
+                    </p>
+                    <li
+                      className={cardStyles.card__text}
+                      style={{
+                        marginBottom: 0,
+                        fontFamily:
+                          "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;",
+                      }}
+                    >
+                      Wrote and optimized web-scrapers to collect video metadata
+                      from TikTok, Instagram, and Youtube
+                    </li>
+                    <li
+                      className={cardStyles.card__text}
+                      style={{
+                        marginBottom: 0,
+                        fontFamily:
+                          "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;",
+                      }}
+                    >
+                      Automated client dashboard updates with Google cloud
+                      functions and Cron scheduling
+                    </li>
+                    <p className={cardStyles.card__text}>
+                      <i
+                        className="fab fa-js-square fa-2x"
+                        style={{ marginRight: 5, color: "Gold" }}
+                      ></i>
+                      <i
+                        className="fab fa-html5 fa-2x"
+                        style={{ marginRight: 5, color: "Salmon" }}
+                      ></i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className={cardStyles.grid__item} style={{ marginTop: 40 }}>
                 <div className={cardStyles.card}>
                   <div className={cardStyles.card__content}>
                     <div style={{ paddingTop: ".5rem" }}>
@@ -109,15 +249,15 @@ export default function resume() {
                     </li>
                     <p className={cardStyles.card__text}>
                       <i
-                        class="fab fa-python fa-2x"
+                        className="fab fa-python fa-2x"
                         style={{ marginRight: 5, color: "Dodgerblue" }}
                       ></i>
                       <i
-                        class="fab fa-js-square fa-2x"
+                        className="fab fa-js-square fa-2x"
                         style={{ marginRight: 5, color: "Gold" }}
                       ></i>
                       <i
-                        class="fab fa-angular fa-2x"
+                        className="fab fa-angular fa-2x"
                         style={{ marginRight: 5, color: "Red" }}
                       ></i>
                     </p>
@@ -210,11 +350,11 @@ export default function resume() {
                     </li>
                     <p className={cardStyles.card__text}>
                       <i
-                        class="fab fa-js-square fa-2x"
+                        className="fab fa-js-square fa-2x"
                         style={{ marginRight: 5, color: "Gold" }}
                       ></i>
                       <i
-                        class="fab fa-react fa-2x"
+                        className="fab fa-react fa-2x"
                         style={{ marginRight: 5, color: "Dodgerblue" }}
                       ></i>
                     </p>
@@ -296,15 +436,15 @@ export default function resume() {
 
                     <p className={cardStyles.card__text}>
                       <i
-                        class="fab fa-html5 fa-2x"
+                        className="fab fa-html5 fa-2x"
                         style={{ marginRight: 5, color: "Salmon" }}
                       ></i>
                       <i
-                        class="fab fa-js-square fa-2x"
+                        className="fab fa-js-square fa-2x"
                         style={{ marginRight: 5, color: "Gold" }}
                       ></i>
                       <i
-                        class="fab fa-react fa-2x"
+                        className="fab fa-react fa-2x"
                         style={{ marginRight: 5, color: "Dodgerblue" }}
                       ></i>
                     </p>
@@ -397,7 +537,7 @@ export default function resume() {
                     </li>
                     <p className={cardStyles.card__text}>
                       <i
-                        class="fab fa-python fa-2x"
+                        className="fab fa-python fa-2x"
                         style={{ marginRight: 5, color: "Dodgerblue" }}
                       ></i>
                     </p>
